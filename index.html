@@ -3,99 +3,326 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="ico.ico">
-    <title>吴国ICP备案</title>
-    <style>
-            body {
-            margin: 0;
-            padding: 0;
-            background-image: url('bj.jpg'); /* 替换为你的图片路径 */
-            background-size: cover; /* 让图片覆盖整个背景 */
-            background-position: center; /* 图片居中显示 */
-            background-repeat: no-repeat; /* 防止图片重复 */
-            font-family: Arial, sans-serif;
-            color: white;
+    <title>xgorb.cn - 优质域名待售</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0066CC',
+                        secondary: '#6B7280',
+                        accent: '#FF7D00',
+                        dark: '#1F2937',
+                        light: '#F9FAFB'
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
         }
-        
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        
-        .search-box {
-            width: 60%;
-            max-width: 500px;
-            text-align: center;
-            color: white;
-        }
-        
-        h1 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        
-        input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            border-radius: 20px;
-            border: none;
-            outline: none;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            font-size: 16px;
-            margin-top: 20px;
-        }
-
-        footer {
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            padding: 20px 0;
-            text-align: center;
-            font-size: 0.9em;
-        }
-
-        footer p {
-            margin: 5px 0;
-        }
-
-        footer a {
-            color: #ecf0f1;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .card-shadow {
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            }
+            .hover-lift {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .hover-lift:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            }
+            .gradient-bg {
+                background: linear-gradient(135deg, #0066CC 0%, #003366 100%);
+            }
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <div class="search-box">
-            <h1>吴国ICP备案查询</h1>
-            <input type="text" placeholder="请输入吴号 OR 域名">
-            <h2>最新吴国ICP备案</h2>
-            <p><a href="w20241101.html" target="_blank">吴ICP备20241101号</a></p>
+<body class="bg-gray-50 font-inter text-gray-800 min-h-screen flex flex-col">
+    <!-- 头部导航 -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa fa-globe text-primary text-xl"></i>
+                <span class="font-semibold text-dark">X-GORB Studio官方出售页面</span>
+            </div>
+            <button class="md:hidden text-gray-600 focus:outline-none">
+                <i class="fa fa-bars text-xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-16 max-w-6xl">
+        <!-- 域名信息 -->
+        <section class="text-center mb-16">
+            <div class="inline-block p-2 bg-primary/5 rounded-full mb-6">
+                <div class="px-8 py-4 bg-white rounded-full shadow-md">
+                    <h1 class="text-[clamp(2.5rem,5vw,4rem)] font-bold text-dark mb-2 text-shadow tracking-tight">
+                        xgorb.cn
+                    </h1>
+                    <div class="flex justify-center items-center space-x-2 mt-4">
+                        <span class="bg-green-100 text-green-800 text-xs font-medium px-3 py-1 rounded-full">
+                            腾讯云认证域名
+                        </span>
+                        <span class="bg-blue-100 text-blue-800 text-xs font-medium px-3 py-1 rounded-full">
+                            可立即转让
+                        </span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-3 py-1 rounded-full">
+                            高价值域名
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="inline-block px-8 py-3 bg-primary text-white rounded-full text-lg font-medium shadow-lg hover-lift">
+                优质域名待售
+            </div>
+        </section>
+
+        <!-- 转让信息 -->
+        <section class="bg-white rounded-2xl p-8 md:p-10 mb-16 card-shadow hover-lift">
+            <div class="flex items-center mb-8">
+                <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
+                    <i class="fa fa-handshake-o text-primary text-xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-dark">域名转让信息</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold text-dark mb-4 pb-2 border-b">联系方式</h3>
+                    <div class="space-y-5">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fa fa-user text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-dark">联系人</h4>
+                                <p class="text-gray-600">WuSir</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fa fa-phone text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-dark">联系电话</h4>
+                                <a href="tel:18919400135" class="text-primary hover:underline">18919400135</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fa fa-envelope text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-dark">邮箱</h4>
+                                <a href="mailto:3813294268@qq.com" class="text-primary hover:underline">3813294268@qq.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fa fa-weixin text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-dark">微信</h4>
+                                <p class="text-gray-600">X-GORB</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
+                                <i class="fa fa-qq text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-dark">QQ</h4>
+                                <a href="tencent://message/?uin=3813294268" class="text-primary hover:underline">3813294268</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-dark mb-4 pb-2 border-b">转让流程</h3>
+                    <div class="space-y-6">
+                        <div class="flex">
+                            <div class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0">
+                                1
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-dark">洽谈咨询</h4>
+                                <p class="text-gray-600">通过上述联系方式与我们取得联系，了解详细转让信息</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0">
+                                2
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-dark">签订协议</h4>
+                                <p class="text-gray-600">双方达成一致后，签订正式域名转让协议</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0">
+                                3
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-dark">付款交易</h4>
+                                <p class="text-gray-600">通过腾讯云平台进行安全交易，保障双方权益</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center mr-4 flex-shrink-0">
+                                4
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-dark">域名过户</h4>
+                                <p class="text-gray-600">完成付款后，立即进行域名过户操作</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 text-center">
+                <a href="tel:18919400135" class="inline-flex items-center bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-lg shadow-lg transition-all hover-lift">
+                    <i class="fa fa-phone mr-2"></i> 立即联系洽谈
+                </a>
+            </div>
+        </section>
+
+
+        <!-- 公司公告 -->
+        <section class="bg-white rounded-2xl p-8 mb-16 card-shadow hover-lift">
+            <div class="flex items-center mb-6">
+                <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
+                    <i class="fa fa-bullhorn text-primary text-xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-dark">中国台湾高博科技有限公司公告</h2>
+            </div>
+            <div class="prose max-w-none text-gray-700 leading-relaxed">
+                <p class="text-lg font-semibold text-accent mb-4">我们将进行战略调整</p>
+                <p class="mb-4">感谢各界长期以来的支持与信任。因公司业务方向调整，高博科技将在2030年-2031年以全新的姿态回归市场，持续为用户提供优质服务。</p>
+                <p class="mb-4">在此期间，我们决定将名下域名 xgorb.cn 开放转让，诚邀有识之士洽谈合作。</p>
+                <p class="text-accent font-medium">我们的核心技术源码将于2天后在 Github 开源，敬请关注。</p>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img src="https://raw.githubusercontent.com/X-GORB-STUDIO/X-GORB-STUDIO.github.io/refs/heads/main/ico.ico" alt="公司logo" class="w-12 h-12 rounded mr-3">
+                    <div>
+                        <p class="font-semibold text-dark">中国台湾高博科技有限公司</p>
+                        <p class="text-sm text-gray-500">2025年7月11日</p>
+                    </div>
+                </div>
+                <div class="flex space-x-3">
+                    <a href="https://github.com" target="_blank" class="flex items-center text-gray-600 hover:text-primary transition-colors">
+                        <i class="fa fa-github mr-2"></i> 关注开源计划
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 域名优势 -->
+        <section class="mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold text-center text-dark mb-12">域名核心优势</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl p-6 card-shadow hover-lift">
+                    <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6">
+                        <i class="fa fa-certificate text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">腾讯云认证保障</h3>
+                    <p class="text-gray-600">该域名已通过腾讯云实名认证，支持快速过户，安全可靠有保障。</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 card-shadow hover-lift">
+                    <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6">
+                        <i class="fa fa-line-chart text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">高价值潜力</h3>
+                    <p class="text-gray-600">.cn 顶级域名，简短易记，适合各类互联网应用，具有极高的商业开发价值。</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 card-shadow hover-lift">
+                    <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6">
+                        <i class="fa fa-rocket text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">立即启用</h3>
+                    <p class="text-gray-600">无任何纠纷，可立即用于网站建设、APP 应用、品牌推广等各类场景。</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 交易保障 -->
+        <section class="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-8 md:p-10 mb-16">
+            <h2 class="text-2xl font-bold text-center text-dark mb-10">安全可靠的交易保障</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-sm hover-lift">
+                    <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+                        <i class="fa fa-shield text-green-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-dark mb-2">腾讯云官方认证</h3>
+                    <p class="text-gray-600">域名已通过腾讯云实名认证，可提供完整认证信息，确保域名来源合法合规。</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover-lift">
+                    <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+                        <i class="fa fa-lock text-green-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-dark mb-2">安全交易流程</h3>
+                    <p class="text-gray-600">支持通过腾讯云平台进行交易，资金托管保障双方权益，确保交易安全无忧。</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover-lift">
+                    <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+                        <i class="fa fa-bolt text-green-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-dark mb-2">快速过户服务</h3>
+                    <p class="text-gray-600">专业团队协助办理过户手续，快速完成域名转移，不影响您的业务开展。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部联系栏 -->
+    <div class="gradient-bg text-white py-10">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h2 class="text-2xl font-bold mb-2">对该域名感兴趣？</h2>
+                    <p class="text-white/80">立即联系我们获取更多信息</p>
+                </div>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="tel:18919400135" class="bg-white text-primary hover:bg-gray-100 px-6 py-3 rounded-lg font-medium transition-colors text-center">
+                        <i class="fa fa-phone mr-2"></i> 电话联系
+                    </a>
+                    <a href="mailto:3813294268@qq.com" class="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center">
+                        <i class="fa fa-envelope mr-2"></i> 邮件咨询
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    <footer>
-        <p>©2024 - X-GORB工作室版权所有 · Copyright © 2024 X-GORB. All rights reserved.</p>
-        <p>真理是简单的，它不会因时间而改变。</p>
-        <p>在线QQ群：985565412</p>
-        <p><a href="w20241101.html" target="_blank">吴ICP备20241101号</a></p>
-                            <p>
-<p>网上有害信息举报专区：亲爱的市民朋友，警方反诈劝阻电话“96110”系专门针对避免您财产被骗受损而设，请您一旦收到来电，立即接听。<a href="http://www.sh12345.gov.cn/" target="_blank">12345政务服务便民热线 |</a>
-<a href="https://bzpt.shdf.gov.cn/www/shouye/gzfw/wsjb/index.shtml" target="_blank">扫黄打非举报 |</a>
-<a href="https://www.12321.cn/" target="_blank">12321网络不良与垃圾信息举报受理中心 |</a>
-            <p> <a href="https://www.12377.cn/" title="网络违法犯罪举报中心" target="_blank"><img src="https://xgorb.cn/music/img/2.png"></a>
-                <a href="https://cyberpolice.mps.gov.cn/" title="中央网信办信息举报中心" target="_blank"><img src="https://xgorb.cn/music/img/1.png"></a>
-              <img src="https://www.gov.cn/images/20230928shilaohuaicon.jpg" alt="适用于老龄化标志">
-              <img src="https://www.xgorb.cn/jc.png" alt="962110">
-            </p>        
-            <p> 关注我们
-            <img src="https://www.xgorb.cn/weixin.png" alt="关注我们">
-            </p>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white/70 py-12">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fa fa-globe text-white text-xl mr-2"></i>
+                        <span class="font-semibold text-white">X-GORB Studio官方出售页面</span>
+                    </div>
+                    <p class="mb-4">X-GORB Studio官方出售页面</p>
+            <div class="pt-8 border-t border-white/10 text-center text-sm">
+                <p>© 2025 xgorb.cn 域名停靠页面 | 本站内容仅供参考，具体交易以双方协议为准</p>
+            </div>
+        </div>
     </footer>
-    <script src="https://xgorb.cn/china.js"></script>
+
+    <!-- 悬浮联系按钮 - 移动端 -->
+    <div class="fixed bottom-6 right-6 md:hidden z-40">
+        <a href="tel:18919400135" class="bg-primary text-white p-4 rounded-full shadow-lg flex items-center justify-center w-14 h-14">
+            <i class="fa fa-phone text-xl"></i>
+        </a>
+    </div>
 </body>
-</html>
+</html>    
